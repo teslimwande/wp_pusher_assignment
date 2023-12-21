@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP-Pusher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a aria-label="skip navigation" class="skip-nav-link" href="#main-content">skip navigation</a>
+         <!--  top navigation bar. -->
+      <nav class="container-spacer">
+        <div class="navigation-menu">
+          <!-- Logo at the left and links to the right -->
+          <div class="left-nav">
+            <a href="./index.html" aria-label="Home">
+              <img src="./images/wppusher-logo copy.png" alt="logo" />
+            </a>
+            <h4>WP Pusher</h4>
+          </div>
+          <div class="right-nav">
+            <a href="#" aria-label="Download">Download</a>
+            <a href="#" aria-label="Learn more">Learn more</a>
+            <a href="#" aria-label="Pricing">Pricing</a>
+            <a href="#" aria-label="Help">Help</a>
+            <a href="#" aria-label="Account">Account</a>
+          </div>
+        </div>
+        <div class="line"></div>
+      </nav>
+    </header>
+    <!-- Creating a main section with a form and a summary of the order -->
+    <main id="main-content" class="main-section">
+      <form action="">
+        <!-- Checkout form on left and price summary on right -->
+        <div class="container-spacer">
+          <div class="form-container">
+            <div class="checkout-content">
+              <h2>Checkout</h2>
+              <div class="line"></div>
+              <div
+                class="basic-information-container"
+                aria-label="Your Basic Information"
+              >
+                <div class="basic-info">
+                  <div class="numbering">
+                    <p class="number">1</p>
+                    <div class="circle"></div>
+                  </div>
+                  <h3>Your Basic Information</h3>
+                </div>
+                <div class="name-email">
+                  <div class="input-item">
+                    <label for="first-name">First Name</label>
+                    <input
+                      type="text"
+                      name="first-name"
+                      id="name"
+                      placeholder="Jane"
+                    />
+                  </div>
+
+                  <div class="input-item">
+                    <label for="last-name">Last Name</label>
+                    <input
+                      type="text"
+                      name="last-name"
+                      id="last-name"
+                      placeholder="Doe"
+                    />
+                  </div>
+                </div>
+                <div class="input-item">
+                  <label for="phone">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Janedoe@example.com"
+                  />
+                </div>
+              </div>
+              <div class="line"></div>
+
+              <!------payment info---------->
+
+              <div
+                class="basic-information-container"
+                aria-label="Your Payment Information"
+              >
+                <div class="basic-info">
+                  <div class="numbering">
+                    <p class="number">2</p>
+                    <div class="circle"></div>
+                  </div>
+                  <h3>Your Payment Information</h3>
+                </div>
+                <label for="card-number">Credit Card</label>
+                <div class="input-group-container">
+                  <input
+                    type="text"
+                    name="card"
+                    id="card-number"
+                    placeholder="Card Number"
+                  />
+                  <input
+                    type="text"
+                    name="card"
+                    id="card-number"
+                    placeholder="MM/YY"
+                  />
+                  <input
+                    type="text"
+                    name="card"
+                    id="card-number"
+                    placeholder="CVV"
+                  />
+                </div>
+
+                <div class="line"></div>
+                <button type="submit">Buy WP Pusher</button>
+                <div class="help">
+                  <img src="./images/Mask.png" alt="question mark icon" />
+                  <p>
+                    <strong> Need any help?</strong>
+                    Don’t hesitate to contact <br />support!
+                  </p>
+
+                </div>
+                <img
+                  src="./images/powered_by_stripe.png"
+                  alt="powered_by_stripe logo"
+                />
+              </div>
+            </div>
+
+            <!-----freelancer------>
+
+            <div class="Freelancer-section">
+                <div class="plan">
+                  <p class="freelancer">Freelancer</p>
+                  <div class="pricing">
+                    <p class="symbol">$</p>
+                    <p class="year">
+                      <span class="year-number">99</span>
+                      <span class="year-letter"> / year</span>
+                    </p>
+                  </div>
+                  <p>Automatically renews <br />after 1 year</p>
+                </div>
+  
+                <div class="list-item-container">
+                  <div class="list-item">
+                    <img src="./images/Combined Shape.png" alt="check icon" />
+                    <span>Use on 5 client sites</span>
+                  </div>
+                  <div class="list-item">
+                    <img src="./images/Combined Shape.png" alt="check icon" />
+                    <span>Private Repository</span>
+                  </div>
+                  <div class="list-item">
+                    <img src="./images/Combined Shape.png" alt="check icon" />
+                    <span>Email support</span>
+                  </div>
+                </div>
+  
+                <p>Need <strong>20</strong> client sites?</p>
+                <a href="#"
+                  ><strong>Switch to the <i>Agency</i> plan</strong></a
+                >
+                <div class="line"></div>
+
+                <p>
+                    FTP is horrible to deal with. <strong>WP Pusher</strong> solves
+                    that issue, and the customer support is awesome!
+                  </p>
+                  <div class="profile">
+                    <img src="./images/kirk_beard.png" alt="An image of Kirk Beard" />
+                <span><strong>Kirk Beard</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>
+        &copy; 2018 WP Pusher IVS <span>.</span>
+        <a href="#">Terms of Service</a>
+      </p>
+    </footer>
+    
+</body>
+</html>
